@@ -1,0 +1,5 @@
+nombre = input("Nombre: ")
+apellido1 = input("Apellido 1: ")
+apellido2 = input("Apellido 2: ")
+iniciales = nombre[0].upper() + apellido1[0].upper() + apellido2[0].upper()
+print("Iniciales:", iniciales)

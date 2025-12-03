@@ -1,0 +1,7 @@
+sueldo_base = float(input("Sueldo base: "))
+venta1 = float(input("Venta 1: "))
+venta2 = float(input("Venta 2: "))
+venta3 = float(input("Venta 3: "))
+comision = 0.10 * (venta1 + venta2 + venta3)
+print("Comisión:", comision)
+print("Total:", sueldo_base + comision)

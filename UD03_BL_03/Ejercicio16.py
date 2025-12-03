@@ -1,0 +1,5 @@
+d = float(input("Distancia (km): "))
+v1 = float(input("Velocidad vehículo 1 (km/h): "))
+v2 = float(input("Velocidad vehículo 2 (km/h): "))
+tiempo_horas = d / (v2 - v1)
+print("Tiempo en minutos:", tiempo_horas * 60)
